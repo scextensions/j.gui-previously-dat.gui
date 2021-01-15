@@ -4,10 +4,10 @@ $hover-lighten: 5%;
 $border-lighten: 7%;
 $active-lighten: 10%;
 
-$number-color: #2FA1D6;
-$boolean-color: #806787;
-$string-color: #1ed36f;
-$function-color: #e61d5f;
+$number-color: #00ccff;
+$boolean-color: #ac46ff;
+$string-color: #00ff00;
+$function-color: #ff0000;
 $save-row-color: #dad5cb;
 $button-color: darken($save-row-color, 10%);
 $border-color: lighten($background-color, $border-lighten);
