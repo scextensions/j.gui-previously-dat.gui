@@ -1,37 +1,37 @@
-# dat.GUI
-A lightweight graphical user interface for changing variables in JavaScript. 
+# j.gui
+A lightweight graphical user interface for changing variables in JavaScript. A progressive version of Dat.GUI, since dat.GUI has since been shutdown / development ended.
 
-Get started with dat.GUI by reading the [tutorial](http://workshop.chromeexperiments.com/examples/gui)
+Get started with j.gui by reading the [tutorial](http://workshop.chromeexperiments.com/examples/gui)
 or the [API documentation](API.md).
 
 
 
 ## Packaged Builds
-The easiest way to use dat.GUI in your code is by using the built source at `build/dat.gui.min.js`. These built JavaScript files bundle all the necessary dependencies to run dat.GUI.
+The easiest way to use dat.GUI in your code is by using the built source at `build/j.gui.min.js`. These built JavaScript files bundle all the necessary dependencies to run dat.GUI.
 
 In your `head` tag, include the following code:
 ```html
-<script type="text/javascript" src="dat.gui.min.js"></script>
+<script type="text/javascript" src="j.gui.min.js"></script>
 ```
 
-## Installing from npm
-
+## Installing from npm (j.gui isnt available on NPM yet)
 ```bash
-$ npm install --save dat.gui
+$ npm install --save j.gui
+```
+## Importing with a script:
+### CommonJS:
+```js
+const dat = require('j.gui');
 ```
 
+### Javascript
 ```js
-// CommonJS:
-const dat = require('dat.gui');
-
-// ES6:
-import * as dat from 'dat.gui';
+import * as dat from 'j.gui';
 
 const gui = new dat.GUI();
 ```
 
 ## Directory Contents
-
 ```
 ├── build - Compiled source code.
 ├── src - Source files.
